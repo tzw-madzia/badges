@@ -1,0 +1,16 @@
+<h1>Badges</h1>
+<% @badges.each do |badge| %>
+<% @category = Category.find_by id: badge.category_id %>
+<div class="row">
+  <div class="col-md-4">
+    <%= image_tag badge.picture.url(:medium) %>
+  </div>
+  <div class="col-md-8">
+    <h3><%= badge.name %></h3>
+    <h5><%= @category.name %></h5>
+    <p><%= badge.description %></p>
+  </div>
+</div>
+<br>
+<br>
+<% end %>

@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'welcome#index'
   match '/categories', to: 'categories#index', via: 'get'
+  match '/badges', to: 'badges#index', via: 'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

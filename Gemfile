@@ -13,6 +13,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem "paperclip", "~> 4.1"
 
 group :doc do
   gem 'sdoc', '~> 0.4.0'        
