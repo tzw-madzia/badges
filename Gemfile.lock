@@ -79,6 +79,8 @@ GEM
     execjs (2.2.1)
     formtastic (2.3.0.rc4)
       actionpack (>= 3.0)
+    haml (4.0.5)
+      tilt
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
@@ -188,6 +190,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   devise
+  haml
   jbuilder (~> 2.0)
   jquery-rails
   paperclip (~> 4.1)
